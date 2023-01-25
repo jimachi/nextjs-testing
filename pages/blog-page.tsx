@@ -11,7 +11,7 @@ type STATICPROPS = {
 const BlogPage: React.FC<STATICPROPS> = ({ posts }) => {
   return (
     <Layout title="Blog">
-      <p className="text-4xl">blog page</p>
+      <p className="text-4xl mb-10">blog page</p>
       <ul>{posts && posts.map((post) => <Post key={post.id} {...post} />)}</ul>
     </Layout>
   )
