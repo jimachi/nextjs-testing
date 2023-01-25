@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 const TaskPage: React.FC = () => {
   return (
     <Layout title="Todos">
-      <p className="text-4xl">Todos page</p>
+      <p className="text-4xl">todos page</p>
     </Layout>
   )
 }
