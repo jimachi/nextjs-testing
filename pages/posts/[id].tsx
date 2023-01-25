@@ -52,7 +52,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const post = await getPostData(ctx.params.id as string)
   return {
     props: {
-      post,
+      ...post,
     },
   }
 }
